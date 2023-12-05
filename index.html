@@ -8,8 +8,9 @@
 </head>
 <body>
 <a-scene vr-mode-ui='enabled: false' arjs='sourceType: webcam; videoTexture: true; debugUIEnabled: false' renderer='antialias: true; alpha: true'>
-    <a-camera gps-new-camera='gpsMinDistance: 5'></a-camera>
-    <a-entity material='color: red' geometry='primitive: box' gps-new-entity-place="latitude: 45.415513; longitude: -122.427045" scale="15 15 15"></a-entity>
+    <!--<a-camera gps-new-camera='gpsMinDistance: 5'></a-camera>-->
+    <a-camera gps-new-camera="simulateLatitude: 45.588326; simulateLongitude: -122.589225" rotation-reader></a-camera>
+    <a-entity material='color: red' geometry='primitive: box' gps-new-entity-place="latitude: 45.585598; longitude: -122.572023" scale="15 15 15"></a-entity>
 </a-scene>
 </body>
 </html>
